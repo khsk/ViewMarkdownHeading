@@ -22,7 +22,6 @@ class ViewMarkdownHeading(sublime_plugin.ViewEventListener):
 #        self.main()
 
     def on_selection_modified_async(self):
-        print('selection')
         self.main()
 
     def is_target_file(self):
@@ -48,7 +47,6 @@ class ViewMarkdownHeading(sublime_plugin.ViewEventListener):
             self.reset_md_heading_key()
             return
 
-        self.set_md_heading_key(str(sel[0].begin()) + 'des')
         headings =  self.view.find_all('(?m)^#+\s*.*')
 
         if len(headings) == 0:
