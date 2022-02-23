@@ -1,0 +1,4 @@
+{
+    "target_syntaxs": ["Markdown", "MultiMarkdown"],
+    "max_length": 30
+}
