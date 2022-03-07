@@ -1,0 +1,25 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "ViewMarkdownHeading",
+                        "mnemonic": "V",
+                        "children": [
+                            {
+                                "caption": "Settings",
+                                "mnemonic": "S",
+                                "command": "open_file", "args": {
+                                    "file": "${packages}/ViewMarkdownHeading/ViewMarkdownHeading.sublime-settings"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
