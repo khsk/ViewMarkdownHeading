@@ -9,6 +9,14 @@ Sublime Text Plugin. add caret position heading to Status bar
 `(Sublime Text)\Data\Packages\ViewMarkdownHeading`  
 2. Put `ViewMarkdownHeading.py`, `ViewMarkdownHeading.sublime-settings`
 
+or
+
+`Ctrl + Shift + P`  
+`Package Contorol: Add repository`  
+past URL  
+`https://github.com/khsk/ViewMarkdownHeading.git`  
+and `Package Control: Install Package`  
+
 # Settings
 
 ## target_syntaxs
